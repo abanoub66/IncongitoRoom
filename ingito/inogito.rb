@@ -71,7 +71,7 @@ class Heap
   end
 end
 
-def heapSort(list[])
+def heapSort(list)
   h = Heap.new()
   list.ecah { |data| h.add(data) }
   sorted = []
@@ -82,7 +82,7 @@ def heapSort(list[])
   return sorted
 end
 
-def isSorted(list[])
+def isSorted(list)
   previous = list[0]
   list.each { |current|
       if (prevoius > current)
@@ -97,9 +97,9 @@ list = [101, 325, 202, 302, 121, 326]
 
 list = heapSort(list)
 
-if(isSorted(list)){
+if(isSorted(list))
     puts "Yay, you did it!"
-}
+end
 
 
 
