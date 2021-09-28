@@ -90,6 +90,7 @@ def isSorted(list)
       end
       preivous = current
   }
+  puts "yeeting"
   return true
 end
 
